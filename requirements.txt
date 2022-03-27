@@ -3,4 +3,4 @@ pandas
 matplotlib
 tensorflow
 streamlit
-opencvopencv-python
+opencv-python
