@@ -100,7 +100,7 @@ with st.spinner('Identfying...'):
             
         elif prediction == "Maize_Common_Rust":
             st.subheader("Disease Name")
-            st.markdown('Maize Blight')
+            st.markdown('Maize Common Rust')
             st.subheader("Disease Cause")
             st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
             st.subheader("Disease Management")
@@ -110,7 +110,7 @@ with st.spinner('Identfying...'):
             
         elif prediction == "Maize_Gray_Leaf_Spot" :
             st.subheader("Disease Name")
-            st.markdown('Maize Blight')
+            st.markdown('Maize Gray Leaf Spot')
             st.subheader("Disease Cause")
             st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
             st.subheader("Disease Management")
@@ -120,7 +120,7 @@ with st.spinner('Identfying...'):
             
         elif prediction == "Maize_Healthy":
             st.subheader("Disease Name")
-            st.markdown('Maize Blight')
+            st.markdown('Maize Healthy')
             st.subheader("Disease Cause")
             st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
             st.subheader("Disease Management")
@@ -130,7 +130,7 @@ with st.spinner('Identfying...'):
              
         elif prediction == "Tomato_Bacterial_spot":
             st.subheader("Disease Name")
-            st.markdown('Maize Blight')
+            st.markdown('Tomato Bacterial Spot')
             st.subheader("Disease Cause")
             st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
             st.subheader("Disease Management")
@@ -140,7 +140,7 @@ with st.spinner('Identfying...'):
              
         elif prediction == "Tomato_Early_blight":
             st.subheader("Disease Name")
-            st.markdown('Maize Blight')
+            st.markdown('Tomato Early Blight')
             st.subheader("Disease Cause")
             st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
             st.subheader("Disease Management")
@@ -150,7 +150,7 @@ with st.spinner('Identfying...'):
              
         elif prediction == "Tomato_Late_blight" :
             st.subheader("Disease Name")
-            st.markdown('Maize Blight')
+            st.markdown('Tomato Late Blight')
             st.subheader("Disease Cause")
             st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
             st.subheader("Disease Management")
@@ -160,7 +160,7 @@ with st.spinner('Identfying...'):
              
         elif prediction == "Tomato_Leaf_Mold":
             st.subheader("Disease Name")
-            st.markdown('Maize Blight')
+            st.markdown('Tomato Leaf Mold')
             st.subheader("Disease Cause")
             st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
             st.subheader("Disease Management")
@@ -170,7 +170,7 @@ with st.spinner('Identfying...'):
              
         elif prediction == "Tomato_Septoria_leaf_spot":
             st.subheader("Disease Name")
-            st.markdown('Maize Blight')
+            st.markdown('Tomato Septoria Leaf Spot')
             st.subheader("Disease Cause")
             st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
             st.subheader("Disease Management")
@@ -180,7 +180,7 @@ with st.spinner('Identfying...'):
              
         elif prediction == "Tomato_Spider_mites Two-spotted_spider_mite":
             st.subheader("Disease Name")
-            st.markdown('Maize Blight')
+            st.markdown('Tomato Spider Mites Two Sotted Spider Mite')
             st.subheader("Disease Cause")
             st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
             st.subheader("Disease Management")
@@ -190,7 +190,7 @@ with st.spinner('Identfying...'):
              
         elif prediction == "Tomato_Target_Spot":
             st.subheader("Disease Name")
-            st.markdown('Maize Blight')
+            st.markdown('Tomato Target Spot')
             st.subheader("Disease Cause")
             st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
             st.subheader("Disease Management")
@@ -200,7 +200,7 @@ with st.spinner('Identfying...'):
              
         elif prediction == "Tomato_Tomato_Yellow_Leaf_Curl_Virus":
             st.subheader("Disease Name")
-            st.markdown('Maize Blight')
+            st.markdown('Tomato Yellow Leaf Curl Virus')
             st.subheader("Disease Cause")
             st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
             st.subheader("Disease Management")
@@ -211,7 +211,7 @@ with st.spinner('Identfying...'):
         else: 
             #Body of Tomato healthy
             st.subheader("Disease Name")
-            st.markdown('Maize Blight')
+            st.markdown('Tomato Healthy')
             st.subheader("Disease Cause")
             st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
             st.subheader("Disease Management")
