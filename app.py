@@ -87,26 +87,31 @@ with st.spinner('Identfying...'):
             st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
             st.subheader("Disease Management")
             st.markdown("""
-            Management tips:
-            - Planting hybrids that are resistant
-            - Spraying fungicides
+            - Planting hybrids that are resistant.
+            - Spraying fungicides.
             """)
             st.subheader("Disease Symptoms")
             st.markdown("""
-            Symptoms:
-            - Long narrow, tan lesions that form parallel to leaf margins
-            - Small light green to grayish spots approximately 1-2 weeks after infection 
+            - Long narrow, tan lesions that form parallel to leaf margins.
+            - Small light green to grayish spots approximately 1-2 weeks after infection. 
             """)
             
         elif prediction == "Maize_Common_Rust":
             st.subheader("Disease Name")
             st.markdown('Maize Common Rust')
             st.subheader("Disease Cause")
-            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.markdown('Fungus (Puccinia sorghi).')
             st.subheader("Disease Management")
-            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.markdown("""
+            - Planting hybrids resistant varieties
+            - Spraying fungicides
+            """)
             st.subheader("Disease Symptoms")
-            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
+            st.markdown("""
+            - circular pustules, powdery, brown becoming brown-black as the plant matures.
+            - The pustules occur on all above-ground parts, but are most common on the leaves where they are scattered on both surfaces.
+            - In severe cases, the leaves and leaf sheaths turn yellow and die early
+            """)
             
         elif prediction == "Maize_Gray_Leaf_Spot" :
             st.subheader("Disease Name")
