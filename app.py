@@ -203,12 +203,26 @@ with st.spinner('Identfying...'):
             st.subheader("Disease Name")
             st.markdown('Tomato Leaf Mold')
             st.subheader("Disease Cause")
-            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.markdown('Fungus (Passalora fulva). The disease is driven by high relative humidity (greater than 85%).')
             st.subheader("Disease Management")
-            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.markdown("""
+            - Use drip irrigation to avoid watering folliage.
+            - Stake and prune branches to improve airflow.
+            - Remove crop residue at the end of season to avoid carrying over pests and diseases.
+            - Spraying fungicides.
+            
+            
+            """)
             st.subheader("Disease Symptoms")
-            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
-             
+            st.markdown("""
+            - The oldest leaves are infected first. 
+            - Pale greenish-yellow spots, usually less than 1/4 inch, with no definite margins, form on the upper sides of leaves.
+            - Olive-green to brown velvety mold forms on the lower leaf surface below leaf spots.
+            - Leaf spots grow together and turn brown. Leaves wither and die but often remain attached to the plant.
+            - Infected blossoms turn black and fall off.
+            - Fruit infections start as a smooth black irregular area on the stem end of the fruit. As the disease progresses, the infected area becomes sunken, dry and leathery.
+            """)
+            
         elif prediction == "Tomato_Septoria_leaf_spot":
             st.subheader("Disease Name")
             st.markdown('Tomato Septoria Leaf Spot')
