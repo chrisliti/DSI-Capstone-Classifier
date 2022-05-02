@@ -77,4 +77,137 @@ with st.spinner('Identfying...'):
         #Make Prediction
         pred = np.argmax(model.predict(opencv_image))
         prediction = ref[pred]
-        st.subheader(str("Disease Identified as "+prediction))
+        #st.subheader(str("Disease Identified as "+prediction))
+        
+        ## Additional info
+        if prediction == Maize_Blight:
+            st.subheader("Disease Name")
+            st.markdown('Maize Blight')
+            st.subheader("Disease Cause")
+            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.subheader("Disease Management")
+            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.subheader("Disease Symptoms")
+            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
+            
+        elif prediction == Maize_Common_Rust:
+            st.subheader("Disease Name")
+            st.markdown('Maize Blight')
+            st.subheader("Disease Cause")
+            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.subheader("Disease Management")
+            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.subheader("Disease Symptoms")
+            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
+            
+        elif prediction == Maize_Gray_Leaf_Spot :
+            st.subheader("Disease Name")
+            st.markdown('Maize Blight')
+            st.subheader("Disease Cause")
+            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.subheader("Disease Management")
+            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.subheader("Disease Symptoms")
+            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
+            
+        elif prediction == Maize_Healthy:
+            st.subheader("Disease Name")
+            st.markdown('Maize Blight')
+            st.subheader("Disease Cause")
+            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.subheader("Disease Management")
+            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.subheader("Disease Symptoms")
+            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
+             
+        elif prediction == Tomato_Bacterial_spot:
+            st.subheader("Disease Name")
+            st.markdown('Maize Blight')
+            st.subheader("Disease Cause")
+            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.subheader("Disease Management")
+            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.subheader("Disease Symptoms")
+            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
+             
+        elif prediction == Tomato_Early_blight:
+            st.subheader("Disease Name")
+            st.markdown('Maize Blight')
+            st.subheader("Disease Cause")
+            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.subheader("Disease Management")
+            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.subheader("Disease Symptoms")
+            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
+             
+        elif prediction == Tomato_Late_blight :
+            st.subheader("Disease Name")
+            st.markdown('Maize Blight')
+            st.subheader("Disease Cause")
+            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.subheader("Disease Management")
+            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.subheader("Disease Symptoms")
+            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
+             
+        elif prediction == Tomato_Leaf_Mold:
+            st.subheader("Disease Name")
+            st.markdown('Maize Blight')
+            st.subheader("Disease Cause")
+            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.subheader("Disease Management")
+            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.subheader("Disease Symptoms")
+            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
+             
+        elif prediction == Tomato_Septoria_leaf_spot:
+            st.subheader("Disease Name")
+            st.markdown('Maize Blight')
+            st.subheader("Disease Cause")
+            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.subheader("Disease Management")
+            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.subheader("Disease Symptoms")
+            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
+             
+        elif prediction == Tomato_Spider_mites Two-spotted_spider_mite:
+            st.subheader("Disease Name")
+            st.markdown('Maize Blight')
+            st.subheader("Disease Cause")
+            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.subheader("Disease Management")
+            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.subheader("Disease Symptoms")
+            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
+             
+        elif prediction == Tomato_Target_Spot:
+            st.subheader("Disease Name")
+            st.markdown('Maize Blight')
+            st.subheader("Disease Cause")
+            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.subheader("Disease Management")
+            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.subheader("Disease Symptoms")
+            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
+             
+        elif prediction == Tomato_Tomato_Yellow_Leaf_Curl_Virus:
+            st.subheader("Disease Name")
+            st.markdown('Maize Blight')
+            st.subheader("Disease Cause")
+            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.subheader("Disease Management")
+            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.subheader("Disease Symptoms")
+            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
+             
+        else: 
+            #Body of Tomato healthy
+            st.subheader("Disease Name")
+            st.markdown('Maize Blight')
+            st.subheader("Disease Cause")
+            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.subheader("Disease Management")
+            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.subheader("Disease Symptoms")
+            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
+            
