@@ -126,7 +126,7 @@ with st.spinner('Identfying...'):
             """)
             st.subheader("Disease Symptoms")
             st.markdown("""
-            - Symptoms are initially first observed on the lower leaves of the maize plant..
+            - Symptoms are initially first observed on the lower leaves of the maize plant.
             - Lesions first appear as small tan spots about 1 to 3 mm in size and are irregular in shape.
             -  tan spots usually have yellow or chlorotic borders and, are more easily observed when the leaf is held to light.
             - As disease progresses, lesions coalesce and blighting of the whole leaf may result.
@@ -140,12 +140,21 @@ with st.spinner('Identfying...'):
             st.subheader("Disease Name")
             st.markdown('Tomato Bacterial Spot')
             st.subheader("Disease Cause")
-            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.markdown('Bacterial Pathogens (Xanthomonas vesicatoria).')
             st.subheader("Disease Management")
-            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.markdown("""
+            - Do not use seed from infected plants.
+            - Care in handling seedlings during transplanting.
+            - Spraying copper fungicides
+            """)
             st.subheader("Disease Symptoms")
-            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
-             
+            st.markdown("""
+            - Look for many small (2-3 mm) irregular spots on the leaves, leaf stalks, stems and fruits.
+            - Spots on the leaf stalks and stems are elongate.
+            - Look for scabby spots on the fruits with transparent margins.
+            - Leaves looked scorched and turn yellow.
+            """)
+            
         elif prediction == "Tomato_Early_blight":
             st.subheader("Disease Name")
             st.markdown('Tomato Early Blight')
