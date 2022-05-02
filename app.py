@@ -80,7 +80,7 @@ with st.spinner('Identfying...'):
         #st.subheader(str("Disease Identified as "+prediction))
         
         ## Additional info
-        if prediction == Maize_Blight:
+        if prediction == "Maize_Blight":
             st.subheader("Disease Name")
             st.markdown('Maize Blight')
             st.subheader("Disease Cause")
@@ -90,7 +90,7 @@ with st.spinner('Identfying...'):
             st.subheader("Disease Symptoms")
             st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
             
-        elif prediction == Maize_Common_Rust:
+        elif prediction == "Maize_Common_Rust":
             st.subheader("Disease Name")
             st.markdown('Maize Blight')
             st.subheader("Disease Cause")
@@ -100,7 +100,7 @@ with st.spinner('Identfying...'):
             st.subheader("Disease Symptoms")
             st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
             
-        elif prediction == Maize_Gray_Leaf_Spot :
+        elif prediction == "Maize_Gray_Leaf_Spot" :
             st.subheader("Disease Name")
             st.markdown('Maize Blight')
             st.subheader("Disease Cause")
@@ -110,7 +110,7 @@ with st.spinner('Identfying...'):
             st.subheader("Disease Symptoms")
             st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
             
-        elif prediction == Maize_Healthy:
+        elif prediction == "Maize_Healthy":
             st.subheader("Disease Name")
             st.markdown('Maize Blight')
             st.subheader("Disease Cause")
@@ -120,7 +120,7 @@ with st.spinner('Identfying...'):
             st.subheader("Disease Symptoms")
             st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
              
-        elif prediction == Tomato_Bacterial_spot:
+        elif prediction == "Tomato_Bacterial_spot":
             st.subheader("Disease Name")
             st.markdown('Maize Blight')
             st.subheader("Disease Cause")
@@ -130,7 +130,7 @@ with st.spinner('Identfying...'):
             st.subheader("Disease Symptoms")
             st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
              
-        elif prediction == Tomato_Early_blight:
+        elif prediction == "Tomato_Early_blight":
             st.subheader("Disease Name")
             st.markdown('Maize Blight')
             st.subheader("Disease Cause")
@@ -140,7 +140,7 @@ with st.spinner('Identfying...'):
             st.subheader("Disease Symptoms")
             st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
              
-        elif prediction == Tomato_Late_blight :
+        elif prediction == "Tomato_Late_blight" :
             st.subheader("Disease Name")
             st.markdown('Maize Blight')
             st.subheader("Disease Cause")
@@ -150,7 +150,7 @@ with st.spinner('Identfying...'):
             st.subheader("Disease Symptoms")
             st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
              
-        elif prediction == Tomato_Leaf_Mold:
+        elif prediction == "Tomato_Leaf_Mold":
             st.subheader("Disease Name")
             st.markdown('Maize Blight')
             st.subheader("Disease Cause")
@@ -160,7 +160,7 @@ with st.spinner('Identfying...'):
             st.subheader("Disease Symptoms")
             st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
              
-        elif prediction == Tomato_Septoria_leaf_spot:
+        elif prediction == "Tomato_Septoria_leaf_spot":
             st.subheader("Disease Name")
             st.markdown('Maize Blight')
             st.subheader("Disease Cause")
@@ -170,7 +170,7 @@ with st.spinner('Identfying...'):
             st.subheader("Disease Symptoms")
             st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
              
-        elif prediction == Tomato_Spider_mites Two-spotted_spider_mite:
+        elif prediction == "Tomato_Spider_mites Two-spotted_spider_mite":
             st.subheader("Disease Name")
             st.markdown('Maize Blight')
             st.subheader("Disease Cause")
@@ -180,7 +180,7 @@ with st.spinner('Identfying...'):
             st.subheader("Disease Symptoms")
             st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
              
-        elif prediction == Tomato_Target_Spot:
+        elif prediction == "Tomato_Target_Spot":
             st.subheader("Disease Name")
             st.markdown('Maize Blight')
             st.subheader("Disease Cause")
@@ -190,7 +190,7 @@ with st.spinner('Identfying...'):
             st.subheader("Disease Symptoms")
             st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
              
-        elif prediction == Tomato_Tomato_Yellow_Leaf_Curl_Virus:
+        elif prediction == "Tomato_Tomato_Yellow_Leaf_Curl_Virus":
             st.subheader("Disease Name")
             st.markdown('Maize Blight')
             st.subheader("Disease Cause")
