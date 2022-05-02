@@ -159,12 +159,24 @@ with st.spinner('Identfying...'):
             st.subheader("Disease Name")
             st.markdown('Tomato Early Blight')
             st.subheader("Disease Cause")
-            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.markdown('Fungus (Alternaria tomatophila). Spores can be spread throughout a field by wind, human contact or equipment, resulting in many reinfection opportunities throughout a growing season.')
             st.subheader("Disease Management")
-            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.markdown("""
+            - Plant resistant varieties.
+            - Crop rotation.
+            - Mulching.
+            - Prunning bottom leaves to improve airflow.
+            - Spray protectant fungicides, chlorothalonil or copper products.
+            
+            """)
             st.subheader("Disease Symptoms")
-            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
-             
+            st.markdown("""
+            - small dark spots form on older foliage near the ground. Leaf spots are round, brown and can grow up to 1/2 inch in diameter..
+            - Larger spots have target-like concentric rings. The tissue around spots often turns yellow.
+            - Severely infected leaves turn brown and fall off, or dead, dried leaves may cling to the stem.
+            - Fruit spots are leathery and black, with raised concentric ridges. They generally occur near the stem. Infected fruit may drop from the plant.
+            """)
+            
         elif prediction == "Tomato_Late_blight" :
             st.subheader("Disease Name")
             st.markdown('Maize Blight')
