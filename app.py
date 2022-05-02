@@ -87,13 +87,17 @@ with st.spinner('Identfying...'):
             st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
             st.subheader("Disease Management")
             st.markdown("""
+            
             - Planting hybrids that are resistant.
             - Spraying fungicides. 
+            
             """)
             st.subheader("Disease Symptoms")
             st.markdown("""
+            
             - Long narrow, tan lesions that form parallel to leaf margins.
             - Small light green to grayish spots approximately 1-2 weeks after infection. 
+            
             """)
             
         elif prediction == "Maize_Common_Rust":
