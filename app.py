@@ -88,15 +88,17 @@ with st.spinner('Identfying...'):
             st.subheader("Disease Management")
             st.markdown("""
             
-            - Planting hybrids that are resistant.
-            - Spraying fungicides. 
+            - Planting hybrids that are resistant
+            
+            - Spraying fungicides
             
             """)
             st.subheader("Disease Symptoms")
             st.markdown("""
             
-            - Long narrow, tan lesions that form parallel to leaf margins.
-            - Small light green to grayish spots approximately 1-2 weeks after infection. 
+            - Long narrow, tan lesions that form parallel to leaf margins
+            
+            - Small light green to grayish spots approximately 1-2 weeks after infection 
             
             """)
             
