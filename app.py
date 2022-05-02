@@ -117,22 +117,25 @@ with st.spinner('Identfying...'):
             st.subheader("Disease Name")
             st.markdown('Maize Gray Leaf Spot')
             st.subheader("Disease Cause")
-            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.markdown('Fungal Pathogens (Cercospora zeae-maydis).')
             st.subheader("Disease Management")
-            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.markdown("""
+            - Crop roatation.
+            - Weed control.
+            - Spraying fungicides
+            """)
             st.subheader("Disease Symptoms")
-            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
+            st.markdown("""
+            - Symptoms are initially first observed on the lower leaves of the maize plant..
+            - Lesions first appear as small tan spots about 1 to 3 mm in size and are irregular in shape.
+            -  tan spots usually have yellow or chlorotic borders and, are more easily observed when the leaf is held to light.
+            - As disease progresses, lesions coalesce and blighting of the whole leaf may result.
+            """)
             
         elif prediction == "Maize_Healthy":
             st.subheader("Disease Name")
-            st.markdown('Maize Healthy')
-            st.subheader("Disease Cause")
-            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
-            st.subheader("Disease Management")
-            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
-            st.subheader("Disease Symptoms")
-            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
-             
+            st.markdown('Good News!!! Your plant is healthy. Keep up the great work.')
+              
         elif prediction == "Tomato_Bacterial_spot":
             st.subheader("Disease Name")
             st.markdown('Tomato Bacterial Spot')
