@@ -35,7 +35,7 @@ html_temp = """
 st.markdown(html_temp,unsafe_allow_html=True)
 
 st.markdown("")
-image = Image.open('plant-disease-image.jpeg')
+image = Image.open('Tomato_img1.jpg')
 st.image(image,use_column_width=True)
 
 st.markdown("""
