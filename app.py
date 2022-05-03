@@ -254,7 +254,7 @@ with st.spinner('Identfying...'):
             st.subheader("Disease Name")
             st.markdown('Tomato Spider Mites Two Sotted Spider Mite')
             st.subheader("Disease Cause")
-            st.markdown('Spider Mites (Tetranychus urticae). Outbreaks are often caused by the use of broad-spectrum insecticides which interfere with the numerous natural enemies that help to manage mite populations.
+            st.markdown('Spider Mites (Tetranychus urticae). Outbreaks are often caused by the use of broad-spectrum insecticides which interfere with the numerous natural enemies that help to manage mite populations.')
             st.subheader("Disease Management")
             st.markdown("""
             - Overhead irrigation helps reduce mite population.
@@ -305,7 +305,7 @@ with st.spinner('Identfying...'):
             st.subheader("Disease Name")
             st.markdown('Tomato Yellow Leaf Curl Virus')
             st.subheader("Disease Cause")
-            st.markdown('Silverleaf white fly (Bemisia tabaci). 
+            st.markdown('Silverleaf white fly (Bemisia tabaci).') 
             st.subheader("Disease Management")
             st.markdown("""
             - Crop rotation
