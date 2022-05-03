@@ -39,12 +39,12 @@ image = Image.open('Tomato_img1.jpg')
 st.image(image,use_column_width=True)
 
 st.markdown("""
-This web page leverages deep learning to classify plant disease images for the following crops:
+This web page leverages computer vision (deep learning) to classify plant disease images for the following crops:
 
 * Maize / Corn
 * Tomatoes
 
-Upload an image of a diseased plant below to identify the plant disease.
+Upload an image of a single diseased leaf below to identify the plant disease.
 """
 )
 
