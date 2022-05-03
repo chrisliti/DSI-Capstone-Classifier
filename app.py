@@ -227,50 +227,107 @@ with st.spinner('Identfying...'):
             st.subheader("Disease Name")
             st.markdown('Tomato Septoria Leaf Spot')
             st.subheader("Disease Cause")
-            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.markdown('Fungus (Septoria lycopersici).')
             st.subheader("Disease Management")
-            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.markdown("""
+            - Prune diseased leaves.
+            - Prune branches to improve airflow.
+            - Mulch around base.
+            - Avoid overhead irrigation.
+            - Control weeds.
+            - Crop rotation.
+            - Fungicidal sprays.
+            
+            
+            """)
             st.subheader("Disease Symptoms")
-            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
-             
+            st.markdown("""
+            - Septoria leaf spot usually appears on the lower leaves after the first fruit sets. 
+            - Spots are circular, about 1/16 to 1/4 inch in diameter with dark brown margins and tan to gray centers with small black fruiting structures.
+            - Characteristically, there are many spots per leaf.
+            - Disease spreads upwards from oldest to youngest growth.
+            - If leaf lesions are numerous, the leaves turn slightly yellow, then brown, and then wither.
+            - Fruit infection is rare.
+            """)
+            
         elif prediction == "Tomato_Spider_mites Two-spotted_spider_mite":
             st.subheader("Disease Name")
             st.markdown('Tomato Spider Mites Two Sotted Spider Mite')
             st.subheader("Disease Cause")
-            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.markdown('Spider Mites (Tetranychus urticae). Outbreaks are often caused by the use of broad-spectrum insecticides which interfere with the numerous natural enemies that help to manage mite populations.
             st.subheader("Disease Management")
-            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.markdown("""
+            - Overhead irrigation helps reduce mite population.
+            - Weed in and around nurseries, especially remove wild plants.
+            - Avoid water-stressed plants as they encourage mite outbreaks.
+            - Check plants in the nursery for mite infestations, and if pressent do not plant in the field.
+            - Do not plant downwind from infested crops.
+            - If pesticides are used, they should be applied carefully. Rotate between different chemical groups, to prevent resistance developing to any one of them.
+            - Use pesticidal oils (white oil based on vegetable oils), horticultural oil (based on petroleum oils) or soaps.
+            """)
+                        
             st.subheader("Disease Symptoms")
-            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
-             
+            st.markdown("""
+            - Spider mites have needle-like mouthparts and use them to suck juice from the leaves. 
+            - Two-spotted mites make webs (like spiders) on the under surface of leaves.
+            - Adult females are approximately 1/50-inch long, slightly orange or pale green in color with two dark spots on their body.
+            - Withering or spotting of leaves.
+            - Yellowing of the plant or some of the leaves.
+            - Loss of folliage and death.
+            """)
+                        
         elif prediction == "Tomato_Target_Spot":
             st.subheader("Disease Name")
             st.markdown('Tomato Target Spot')
             st.subheader("Disease Cause")
-            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.markdown('Fungus (Corynespora cassiicola). 
             st.subheader("Disease Management")
-            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.markdown("""
+            - Remove old plant debris.
+            - Plant as far as possible from papaya.
+            - Check all seedlings in the nursery, and throw away any with leaf spots.
+            - Remove a few branches from the lower part of the plants to allow better airflow at the base.
+            - Remove and burn the lower leaves as soon as the disease is seen, especially after the lower fruit trusses have been picked.
+            - Do not use overhead irrigation; otherwise, it will create conditions for spore production and infection.
+            - Spraying fungicides such as copper oxychloride.
+            """)
+                        
             st.subheader("Disease Symptoms")
-            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
-             
+            st.markdown("""
+            - Disease starts on the older leaves and spreads upwards. 
+            - Irregular-shaped spots (less than 1 mm) with a yellow margin.
+            - Some of the spots enlarge up to 10 mm and show characteristics rings, hence the name of 'target spot'.
+            - Spread to all leaflets and to other leaves is rapid causing the leaves to turn yellow, collapse and die 
+
+            """)
+                        
         elif prediction == "Tomato_Tomato_Yellow_Leaf_Curl_Virus":
             st.subheader("Disease Name")
             st.markdown('Tomato Yellow Leaf Curl Virus')
             st.subheader("Disease Cause")
-            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
+            st.markdown('Silverleaf white fly (Bemisia tabaci). 
             st.subheader("Disease Management")
-            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
+            st.markdown("""
+            - Crop rotation
+            - A trap can be made with a piece of board 12 inches x 12 inches painted bright yellow. Spread petroleum jelly or Biotac on it. The yellow colour attracts the whiteflies to the boards and they stick to them. The boards are placed at the height of the plants. Monitor all crops, not just tomato plants as the whitefly may have passed the virus onto another crop.
+            - Plants that show signs of the virus after 3-4 weeks of transplanting should be bagged (to prevent the whiteflies leaving), uprooted and burned to reduce spread of the virus.
+            - Plants should be watered and fertilized adequately to reduce stress and to build plant health.
+            - Imidacloprid should be sprayed on the entire plant and below the leaves; eggs and flies are often found below the leaves. Spray every 14-21 days and rotate on a monthly basis with Abamectin so that the whiteflies do not build-up resistance to chemicals.
+            - Chemicals are most effective when used early in the morning and late in the evening. This is because insects are most active at these times of the day.
+
+            """)
+                        
             st.subheader("Disease Symptoms")
-            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
-             
+            st.markdown("""
+            - Leaf yellowing. 
+            - Leaf curling upward.
+            - Reduced leaflet size.
+            - Flowers dropping.
+
+            """)
+                        
         else: 
             #Body of Tomato healthy
             st.subheader("Disease Name")
-            st.markdown('Tomato Healthy')
-            st.subheader("Disease Cause")
-            st.markdown('Fungus (Exserohilum Turcicum). Fungal spores are carried by insects, wind, water and animals from infected farms.')
-            st.subheader("Disease Management")
-            st.markdown('- Planting hybrids that are resistant.- Spraying fungicides. ')
-            st.subheader("Disease Symptoms")
-            st.markdown('- Long narrow, tan lesions that form parallel to leaf margins.- Small light green to grayish spots approximately 1-2 weeks after infection. ')
+            st.markdown('Good News!!! Your plant is healthy. Keep up the great work.')
             
