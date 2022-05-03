@@ -280,7 +280,7 @@ with st.spinner('Identfying...'):
             st.subheader("Disease Name")
             st.markdown('Tomato Target Spot')
             st.subheader("Disease Cause")
-            st.markdown('Fungus (Corynespora cassiicola). 
+            st.markdown('Fungus (Corynespora cassiicola).')
             st.subheader("Disease Management")
             st.markdown("""
             - Remove old plant debris.
