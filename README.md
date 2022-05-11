@@ -1,4 +1,4 @@
-# DSI-Capstone-Classifier
+# Plant Disease Classification using Computer Vision
 ![alt text](https://github.com/chrisliti/DSI-Capstone-Classifier/blob/main/Tomato_img4.jpg)
 
 ## Overview
